@@ -18,8 +18,8 @@
   
   <entry>
     <title>【 Flask 教學 】如何在 Flask 設置和操作 Cookie</title>
-    <link href="https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/06-flask-cookie-116296aaa947/"/>
-    <id>https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/06-flask-cookie-116296aaa947/</id>
+    <link href="https://luka.tw/2023/02/16/python-flask/06-flask-cookie/"/>
+    <id>https://luka.tw/2023/02/16/python-flask/06-flask-cookie/</id>
     <published>2023-02-16T06:02:01.000Z</published>
     <updated>2023-11-27T04:40:14.271Z</updated>
     
@@ -46,8 +46,8 @@
   
   <entry>
     <title>【 Flask 教學 】 透過 URL 傳遞參數與透過表單傳遞</title>
-    <link href="https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/07-dynanic_route_and_forms-0e0c0f3ceb32/"/>
-    <id>https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/07-dynanic_route_and_forms-0e0c0f3ceb32/</id>
+    <link href="https://luka.tw/2023/02/16/python-flask/07-dynanic_route_and_forms/"/>
+    <id>https://luka.tw/2023/02/16/python-flask/07-dynanic_route_and_forms/</id>
     <published>2023-02-16T06:02:01.000Z</published>
     <updated>2023-11-27T04:40:14.263Z</updated>
     
@@ -69,8 +69,8 @@
   
   <entry>
     <title>【 Flask 教學 】用 Flask Blueprint 組織程式碼</title>
-    <link href="https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/05-flask-blueprint-fe613c4944ef/"/>
-    <id>https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/05-flask-blueprint-fe613c4944ef/</id>
+    <link href="https://luka.tw/2023/02/16/python-flask/05-flask-blueprint/"/>
+    <id>https://luka.tw/2023/02/16/python-flask/05-flask-blueprint/</id>
     <published>2023-02-16T05:05:01.000Z</published>
     <updated>2023-11-27T04:40:14.275Z</updated>
     
@@ -92,8 +92,8 @@
   
   <entry>
     <title>【 Flask 教學 】Flask Factory 介紹</title>
-    <link href="https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/04-flask-factory-143c24814535/"/>
-    <id>https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/04-flask-factory-143c24814535/</id>
+    <link href="https://luka.tw/2023/02/15/python-flask/04-flask-factory/"/>
+    <id>https://luka.tw/2023/02/15/python-flask/04-flask-factory/</id>
     <published>2023-02-15T08:16:08.000Z</published>
     <updated>2023-11-27T04:40:14.257Z</updated>
     
@@ -116,8 +116,8 @@
   
   <entry>
     <title>【 Flask 教學 】Flask SQLAlchemy | Python 與資料庫的橋樑</title>
-    <link href="https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/03-relational-database-7e6315178894/"/>
-    <id>https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/03-relational-database-7e6315178894/</id>
+    <link href="https://luka.tw/2023/02/13/python-flask/03-relational-database/"/>
+    <id>https://luka.tw/2023/02/13/python-flask/03-relational-database/</id>
     <published>2023-02-13T07:00:00.000Z</published>
     <updated>2023-11-27T04:40:14.263Z</updated>
     
@@ -141,8 +141,8 @@
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (1) Phoebe</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-01-Phoebe-cdd0a3df28cc/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-01-Phoebe-cdd0a3df28cc/</id>
+    <link href="https://luka.tw/2023/02/11/mc2-01-Phoebe/"/>
+    <id>https://luka.tw/2023/02/11/mc2-01-Phoebe/</id>
     <published>2023-02-11T08:10:22.000Z</published>
     <updated>2023-11-27T07:37:19.225Z</updated>
     
@@ -166,8 +166,8 @@
   
   <entry>
     <title>【 Flask 教學 】五分鐘學會 Flask 中的 GET, POST, PUT, PATCH, DELETE</title>
-    <link href="https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/02-routes-26425c23607b/"/>
-    <id>https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/02-routes-26425c23607b/</id>
+    <link href="https://luka.tw/2023/02/11/python-flask/02-routes/"/>
+    <id>https://luka.tw/2023/02/11/python-flask/02-routes/</id>
     <published>2023-02-10T22:27:46.000Z</published>
     <updated>2023-11-27T04:40:14.256Z</updated>
     
@@ -190,8 +190,8 @@
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (2) 慶慶</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-02-qing-80fa8452d835/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-02-qing-80fa8452d835/</id>
+    <link href="https://luka.tw/2023/02/08/mc2-02-qing/"/>
+    <id>https://luka.tw/2023/02/08/mc2-02-qing/</id>
     <published>2023-02-08T06:20:22.000Z</published>
     <updated>2023-11-27T03:41:59.336Z</updated>
     
@@ -215,8 +215,8 @@
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (3) Eva</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-03-eva-1c2d75ce85d1/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-03-eva-1c2d75ce85d1/</id>
+    <link href="https://luka.tw/2023/01/30/mc2-03-eva/"/>
+    <id>https://luka.tw/2023/01/30/mc2-03-eva/</id>
     <published>2023-01-30T06:20:22.000Z</published>
     <updated>2023-11-27T03:41:59.340Z</updated>
     
@@ -240,8 +240,8 @@
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (4) 鈺涵</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-04-yuha-9e37795672d3/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-04-yuha-9e37795672d3/</id>
+    <link href="https://luka.tw/2023/01/29/mc2-04-yuha/"/>
+    <id>https://luka.tw/2023/01/29/mc2-04-yuha/</id>
     <published>2023-01-29T05:20:22.000Z</published>
     <updated>2023-11-27T03:41:59.351Z</updated>
     
@@ -265,8 +265,8 @@
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (5) Michael</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-05-michael-1d20b6151954/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-05-michael-1d20b6151954/</id>
+    <link href="https://luka.tw/2023/01/28/mc2-05-michael/"/>
+    <id>https://luka.tw/2023/01/28/mc2-05-michael/</id>
     <published>2023-01-28T04:30:22.000Z</published>
     <updated>2023-11-27T03:41:59.356Z</updated>
     
@@ -290,8 +290,8 @@
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (6) Shawn</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-06-Shawn-cf17f806fc73/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-06-Shawn-cf17f806fc73/</id>
+    <link href="https://luka.tw/2023/01/28/mc2-06-Shawn/"/>
+    <id>https://luka.tw/2023/01/28/mc2-06-Shawn/</id>
     <published>2023-01-28T04:10:22.000Z</published>
     <updated>2023-11-27T03:41:59.371Z</updated>
     
@@ -315,8 +315,8 @@
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (7) Lily</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-07-lily-8f9d9709b463/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc2-07-lily-8f9d9709b463/</id>
+    <link href="https://luka.tw/2023/01/27/mc2-07-lily/"/>
+    <id>https://luka.tw/2023/01/27/mc2-07-lily/</id>
     <published>2023-01-27T01:30:21.000Z</published>
     <updated>2023-11-27T03:41:59.375Z</updated>
     
@@ -340,8 +340,8 @@
   
   <entry>
     <title>【 Flask 教學 】Hello, Flask！五分鐘建立你的第一個 Flask 應用</title>
-    <link href="https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/01-hello-flask-794c78ea073a/"/>
-    <id>https://luka.tw/Python/Flask-%E6%95%99%E5%AD%B8/python-flask/01-hello-flask-794c78ea073a/</id>
+    <link href="https://luka.tw/2021/11/29/python-flask/01-hello-flask/"/>
+    <id>https://luka.tw/2021/11/29/python-flask/01-hello-flask/</id>
     <published>2021-11-28T22:27:46.000Z</published>
     <updated>2023-11-27T04:40:14.263Z</updated>
     
@@ -364,8 +364,8 @@
   
   <entry>
     <title>【 Python 冷知識 】你知道 PyPI 怎麼唸嘛？</title>
-    <link href="https://luka.tw/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/python/03-how-to-pronounce-pypi-4a9321660029/"/>
-    <id>https://luka.tw/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/python/03-how-to-pronounce-pypi-4a9321660029/</id>
+    <link href="https://luka.tw/2021/11/29/python/03-how-to-pronounce-pypi/"/>
+    <id>https://luka.tw/2021/11/29/python/03-how-to-pronounce-pypi/</id>
     <published>2021-11-28T18:30:56.000Z</published>
     <updated>2023-11-26T04:11:35.494Z</updated>
     
@@ -394,8 +394,8 @@
   
   <entry>
     <title>【 Python 教學 】什麼是 PyPI？跟 pip 又有什麼關係呢？</title>
-    <link href="https://luka.tw/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/python/02-what-is-pypi-fc0b4fc6ba6b/"/>
-    <id>https://luka.tw/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/python/02-what-is-pypi-fc0b4fc6ba6b/</id>
+    <link href="https://luka.tw/2021/11/27/python/02-what-is-pypi/"/>
+    <id>https://luka.tw/2021/11/27/python/02-what-is-pypi/</id>
     <published>2021-11-27T15:11:23.000Z</published>
     <updated>2023-11-26T04:11:35.494Z</updated>
     
@@ -418,8 +418,8 @@
   
   <entry>
     <title>【 Python 資料科學 】書籍推薦</title>
-    <link href="https://luka.tw/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/python/01-data-science-book-69b437eb43dc/"/>
-    <id>https://luka.tw/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/python/01-data-science-book-69b437eb43dc/</id>
+    <link href="https://luka.tw/2021/11/25/python/01-data-science-book/"/>
+    <id>https://luka.tw/2021/11/25/python/01-data-science-book/</id>
     <published>2021-11-24T22:23:14.000Z</published>
     <updated>2023-11-26T04:11:35.494Z</updated>
     
@@ -442,8 +442,8 @@
   
   <entry>
     <title>饅頭計畫 #1 學員心得 (1) Joanne</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc1-01-joanne-dcf2ae1c18be/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc1-01-joanne-dcf2ae1c18be/</id>
+    <link href="https://luka.tw/2020/09/06/mc1-01-joanne/"/>
+    <id>https://luka.tw/2020/09/06/mc1-01-joanne/</id>
     <published>2020-09-06T04:00:35.000Z</published>
     <updated>2023-11-27T03:41:59.203Z</updated>
     
@@ -467,8 +467,8 @@
   
   <entry>
     <title>饅頭計畫 #1 學員心得 (2) GK</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc1-02-gk-dbb820c8db1e/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc1-02-gk-dbb820c8db1e/</id>
+    <link href="https://luka.tw/2020/09/06/mc1-02-gk/"/>
+    <id>https://luka.tw/2020/09/06/mc1-02-gk/</id>
     <published>2020-09-06T04:00:34.000Z</published>
     <updated>2023-11-27T03:41:59.207Z</updated>
     
@@ -492,8 +492,8 @@
   
   <entry>
     <title>饅頭計畫 #1 學員心得 (3) Genie</title>
-    <link href="https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc1-03-genie-1cc488e84291/"/>
-    <id>https://luka.tw/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/mc1-03-genie-1cc488e84291/</id>
+    <link href="https://luka.tw/2020/09/06/mc1-03-genie/"/>
+    <id>https://luka.tw/2020/09/06/mc1-03-genie/</id>
     <published>2020-09-06T04:00:33.000Z</published>
     <updated>2023-11-27T03:41:59.210Z</updated>
     
