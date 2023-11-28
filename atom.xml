@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>luka.tw</title>
+  <title>程式柴 CodeShiba</title>
   
   
-  <link href="https://luka.tw/atom.xml" rel="self"/>
+  <link href="https://codeshiba.com/atom.xml" rel="self"/>
   
-  <link href="https://luka.tw/"/>
+  <link href="https://codeshiba.com/"/>
   <updated>2023-11-27T04:40:14.271Z</updated>
-  <id>https://luka.tw/</id>
+  <id>https://codeshiba.com/</id>
   
   <author>
     <name>Luka Huang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>【 Flask 教學 】如何在 Flask 設置和操作 Cookie</title>
-    <link href="https://luka.tw/2023/02/16/python-flask/06-flask-cookie/"/>
-    <id>https://luka.tw/2023/02/16/python-flask/06-flask-cookie/</id>
+    <link href="https://codeshiba.com/2023/02/16/python-flask/06-flask-cookie/"/>
+    <id>https://codeshiba.com/2023/02/16/python-flask/06-flask-cookie/</id>
     <published>2023-02-16T06:02:01.000Z</published>
     <updated>2023-11-27T04:40:14.271Z</updated>
     
@@ -37,17 +37,17 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="Flask 教學" scheme="https://luka.tw/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
+    <category term="Flask 教學" scheme="https://codeshiba.com/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>【 Flask 教學 】 透過 URL 傳遞參數與透過表單傳遞</title>
-    <link href="https://luka.tw/2023/02/16/python-flask/07-dynanic_route_and_forms/"/>
-    <id>https://luka.tw/2023/02/16/python-flask/07-dynanic_route_and_forms/</id>
+    <link href="https://codeshiba.com/2023/02/16/python-flask/07-dynanic_route_and_forms/"/>
+    <id>https://codeshiba.com/2023/02/16/python-flask/07-dynanic_route_and_forms/</id>
     <published>2023-02-16T06:02:01.000Z</published>
     <updated>2023-11-27T04:40:14.263Z</updated>
     
@@ -60,17 +60,17 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="Flask 教學" scheme="https://luka.tw/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
+    <category term="Flask 教學" scheme="https://codeshiba.com/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>【 Flask 教學 】用 Flask Blueprint 組織程式碼</title>
-    <link href="https://luka.tw/2023/02/16/python-flask/05-flask-blueprint/"/>
-    <id>https://luka.tw/2023/02/16/python-flask/05-flask-blueprint/</id>
+    <link href="https://codeshiba.com/2023/02/16/python-flask/05-flask-blueprint/"/>
+    <id>https://codeshiba.com/2023/02/16/python-flask/05-flask-blueprint/</id>
     <published>2023-02-16T05:05:01.000Z</published>
     <updated>2023-11-27T04:40:14.275Z</updated>
     
@@ -83,17 +83,17 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="Flask 教學" scheme="https://luka.tw/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
+    <category term="Flask 教學" scheme="https://codeshiba.com/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>【 Flask 教學 】Flask Factory 介紹</title>
-    <link href="https://luka.tw/2023/02/15/python-flask/04-flask-factory/"/>
-    <id>https://luka.tw/2023/02/15/python-flask/04-flask-factory/</id>
+    <link href="https://codeshiba.com/2023/02/15/python-flask/04-flask-factory/"/>
+    <id>https://codeshiba.com/2023/02/15/python-flask/04-flask-factory/</id>
     <published>2023-02-15T08:16:08.000Z</published>
     <updated>2023-11-27T04:40:14.257Z</updated>
     
@@ -107,17 +107,17 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="Flask 教學" scheme="https://luka.tw/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
+    <category term="Flask 教學" scheme="https://codeshiba.com/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>【 Flask 教學 】Flask SQLAlchemy | Python 與資料庫的橋樑</title>
-    <link href="https://luka.tw/2023/02/13/python-flask/03-relational-database/"/>
-    <id>https://luka.tw/2023/02/13/python-flask/03-relational-database/</id>
+    <link href="https://codeshiba.com/2023/02/13/python-flask/03-relational-database/"/>
+    <id>https://codeshiba.com/2023/02/13/python-flask/03-relational-database/</id>
     <published>2023-02-13T07:00:00.000Z</published>
     <updated>2023-11-27T04:40:14.263Z</updated>
     
@@ -132,19 +132,19 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="Flask 教學" scheme="https://luka.tw/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
+    <category term="Flask 教學" scheme="https://codeshiba.com/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (1) Phoebe</title>
-    <link href="https://luka.tw/2023/02/11/mc2-01-Phoebe/"/>
-    <id>https://luka.tw/2023/02/11/mc2-01-Phoebe/</id>
+    <link href="https://codeshiba.com/2023/02/11/mc2-01-Phoebe/"/>
+    <id>https://codeshiba.com/2023/02/11/mc2-01-Phoebe/</id>
     <published>2023-02-11T08:10:22.000Z</published>
-    <updated>2023-11-27T07:37:19.225Z</updated>
+    <updated>2023-11-27T23:42:25.909Z</updated>
     
     <content type="html"><![CDATA[<p>Q：名字<br>A：Phoebe</p><p>Q：你在參加饅頭計畫前是否已經是工程師？<br>A：不，我不是工程師</p><p>Q：在饅頭計畫後你是否變成了一位工程師？<br>A：是，我成為了一個混水摸魚的工程師</p><p>Q：你目前的職業是？<br>A：前端</p><p>Q：你覺得饅頭計畫對你有幫助嘛？(單選)<br>A：非常有幫助，讚！</p><p>Q：如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A：改變最大的是養成了學習時寫部落格的習慣。這個習慣不僅可以幫助到自己，也幫助到別人。強迫自己產出也是饅頭計畫的一部分，而 Luka 也會針對你寫的文章給你意見，並提出許多建議，十分的用心。</p><p>Q：你覺得 Luka 教學的過程最好的地方是什麼？<br>A：印象最深刻的是 Luka 有教大家如何提出「好」的問題。身為一個工程師，會問出好問題是非常重要的。那麼 Luka 也制定了許多規範，幫助大家問出更好的問題。<br>Luka 也制訂一些任務，讓大家去完成。那完成之後，也會根據你做出來的東西給予意見，這些回饋都非常的寶貴。因為在剛成為 Junior 時，都會有許多的盲點，這時候就需要一位 mentor 來引導。</p><p>Q：有沒有你很想學，但是沒有學到的東西？<br>A：TypeScript</p><p>Q：有沒有什麼話想對我說？<br>A：感謝 Luka 成立了饅頭計畫，給予當時還是學生的我許多的建議。讓我養成了良好的習慣，不管是在寫部落格，還是開發流程上，在饅頭計畫中都受益良多，讓我少走了一些彎路。期待饅頭計畫會越來越好！</p>]]></content>
     
@@ -157,17 +157,13 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>【 Flask 教學 】五分鐘學會 Flask 中的 GET, POST, PUT, PATCH, DELETE</title>
-    <link href="https://luka.tw/2023/02/11/python-flask/02-routes/"/>
-    <id>https://luka.tw/2023/02/11/python-flask/02-routes/</id>
+    <link href="https://codeshiba.com/2023/02/11/python-flask/02-routes/"/>
+    <id>https://codeshiba.com/2023/02/11/python-flask/02-routes/</id>
     <published>2023-02-10T22:27:46.000Z</published>
     <updated>2023-11-27T04:40:14.256Z</updated>
     
@@ -181,19 +177,19 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="Flask 教學" scheme="https://luka.tw/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
+    <category term="Flask 教學" scheme="https://codeshiba.com/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (2) 慶慶</title>
-    <link href="https://luka.tw/2023/02/08/mc2-02-qing/"/>
-    <id>https://luka.tw/2023/02/08/mc2-02-qing/</id>
+    <link href="https://codeshiba.com/2023/02/08/mc2-02-qing/"/>
+    <id>https://codeshiba.com/2023/02/08/mc2-02-qing/</id>
     <published>2023-02-08T06:20:22.000Z</published>
-    <updated>2023-11-27T03:41:59.336Z</updated>
+    <updated>2023-11-27T23:42:25.953Z</updated>
     
     <content type="html"><![CDATA[<p>Q：名字<br>A：慶慶</p><p>Q：你在參加饅頭計畫前是否已經是工程師？<br>A：不，我不是工程師</p><p>Q：在饅頭計畫後你是否變成了一位工程師？<br>A：否，我沒有變轉職成功</p><p>Q：你目前的職業是？<br>A：都不是</p><p>Q：你覺得饅頭計畫對你有幫助嘛？(單選)<br>A：有幫助，掌聲鼓勵鼓勵</p><p>Q：如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A：饅頭計畫是一個對於完全沒經驗的人來說非常棒的地方，有 Luka 帶領著我們，讓我們知道有什麼東西要學什麼東西可以不用急著學，對於自學來說會比較有方向性，因為我沒有轉職成功，但其中使用 Hackmd 紀錄筆記的習慣一直保持到現在，已經習慣把學習到的知識轉化成文字去複習。<br>你覺得 Luka 教學的過程最好的地方是什麼？<br>最好的地方就是 Luka 知道捷徑在哪裡，知道那些技能是現在市場最需要的以及知道哪些是 HR 想看的東西，對於要轉職的人來說非常有幫助，還有每周都會跟大家開直播聊聊天，會有種朋友在陪伴你而不是導師的感覺。<br>有沒有你很想學，但是沒有學到的東西？<br>我那時候很想學好 vue.js，但沒有 (跟老師無關 XD) 就放棄了。</p><p>Q：有沒有什麼話想對我說？<br>A：首先對 Luka 很抱歉，當初覺得自己轉職失敗很尷尬所以之前你請我寫的心得我就沒寫了，其實當初會放棄 100% 都是自己的原因，那時候的年底家裡有一些事情，生活壓力太大，頓時覺得自己沒什麼心再往前進，那時候負面到覺得我那麼認真想轉職讓生活變得更好，家裡的事情讓我情緒上變得很暴躁，所以最後選擇繼續在原本的工作躺平算了的想法一直出現就到了前陣子事情結束才比較好一點，其實我去年十一月開始有嘗試寫一些東西 XD 但老實說我還是不知道自己要不要轉職，所以想要嘗試寫 JAVA 跟 SQL 搭配之前學的前端搞個網站玩玩看，如果有機會再看能不能真的轉職到軟體工程的領域，因為畢竟我現在生活上經濟壓力比較大，工廠的收入比較扛的住 XD 我很怕轉職薪水差太多會扛不太住，總之很感恩你，謝謝 Luka</p>]]></content>
     
@@ -206,19 +202,15 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (3) Eva</title>
-    <link href="https://luka.tw/2023/01/30/mc2-03-eva/"/>
-    <id>https://luka.tw/2023/01/30/mc2-03-eva/</id>
+    <link href="https://codeshiba.com/2023/01/30/mc2-03-eva/"/>
+    <id>https://codeshiba.com/2023/01/30/mc2-03-eva/</id>
     <published>2023-01-30T06:20:22.000Z</published>
-    <updated>2023-11-27T03:41:59.340Z</updated>
+    <updated>2023-11-27T23:42:25.922Z</updated>
     
     <content type="html"><![CDATA[<p>Q：名字<br>A：Eva</p><p>Q：你在參加饅頭計畫前是否已經是工程師？<br>A：不，我不是工程師</p><p>Q：在饅頭計畫後你是否變成了一位工程師？<br>A：是，我成為了一個人人稱羨的工程師</p><p>Q：你目前的職業是？<br>A：前端</p><p>Q：你覺得饅頭計畫對你有幫助嘛？(單選)<br>非常有幫助，讚！</p><p>Q：如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A：1. 當時在 JS 上的學習卡關，透過課程給予 JS 觀念 以及大量實作，才開始建立起 JS 的觀念與實際運用的技巧，Q：也比較知道要如何持續精進JS以及甚至跨到框架的使用。2. 2. 在學習上比較有進度跟規劃，例如使用 github 所開任務或討論，可以依照自己的時間規劃每週應該達成的進度，或是也可以透過 github 上進行討論。</p><p>Q：你覺得 Luka 教學的過程最好的地方是什麼？<br>A：1. 給予快速掌握新技術的方式，例如：範例實作、資料查找方式、筆記技巧、提問方法。2. 對於積極學習的學員，只要不害怕提問 Luka 都會給予回饋，對剛起步的學員來說給予極大的鼓勵以及安全感。</p><p>Q：有沒有你很想學，但是沒有學到的東西？<br>A：1. 資料庫，在前公司偶爾會接觸後端工程師討論資料庫設計的部分，會希望可以理解，所以在會議中會稍微筆記，並學習資料庫的一些概念。2. 接下來學習方向就會依新工作需求或是未來發展方向進行，如 單元測試、react 等。 3. 後端的部分也會滿想學習，自己建立API 、資料庫並自己製作一個前後端專案（但此部分還不急）。</p><p>Q：有沒有什麼話想對我說？<br>A：很感謝 Luka 在自己工作後或轉換工作，有技術或方向問題的詢問都願意給予回覆。另外，若未來有需要協助的地方，時間允許下，我也樂意參與喔！</p>]]></content>
     
@@ -231,19 +223,15 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (4) 鈺涵</title>
-    <link href="https://luka.tw/2023/01/29/mc2-04-yuha/"/>
-    <id>https://luka.tw/2023/01/29/mc2-04-yuha/</id>
+    <link href="https://codeshiba.com/2023/01/29/mc2-04-yuha/"/>
+    <id>https://codeshiba.com/2023/01/29/mc2-04-yuha/</id>
     <published>2023-01-29T05:20:22.000Z</published>
-    <updated>2023-11-27T03:41:59.351Z</updated>
+    <updated>2023-11-27T23:42:25.995Z</updated>
     
     <content type="html"><![CDATA[<p>Q：名字<br>A：鈺涵</p><p>Q：你在參加饅頭計畫前是否已經是工程師？<br>A：不，我不是工程師</p><p>Q：在饅頭計畫後你是否變成了一位工程師？<br>A：否，因為人生選擇我沒有選擇成為工程師</p><p>Q：你目前的職業是？<br>A：仍然是設計師阿哈哈哈啊哈</p><p>Q：你覺得饅頭計畫對你有幫助嘛？(單選)<br>A：有幫助，掌聲鼓勵鼓勵</p><p>Q：如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A：讓我了解工程師部分生態以及如何努力!<br>雖然基於種種理由最後沒有轉職成功=_=<br>但還是十分感謝饅頭哥的教誨XD</p><p>Q：你覺得 Luka 教學的過程最好的地方是什麼？<br>A：很好笑………….</p><p>Q：有沒有你很想學，但是沒有學到的東西？<br>A：因為中斷了所以這一題無解……….<br>你願意寫篇心得記錄饅頭計畫的過程嘛？<br>我願意！但我需要一點時間<br>有沒有什麼話想對我說？<br>謝謝你=  =下次回台灣我要請你吃飯XD</p>]]></content>
     
@@ -256,19 +244,15 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (5) Michael</title>
-    <link href="https://luka.tw/2023/01/28/mc2-05-michael/"/>
-    <id>https://luka.tw/2023/01/28/mc2-05-michael/</id>
+    <link href="https://codeshiba.com/2023/01/28/mc2-05-michael/"/>
+    <id>https://codeshiba.com/2023/01/28/mc2-05-michael/</id>
     <published>2023-01-28T04:30:22.000Z</published>
-    <updated>2023-11-27T03:41:59.356Z</updated>
+    <updated>2023-11-27T23:42:25.935Z</updated>
     
     <content type="html"><![CDATA[<p>Q：名字<br>A：Michael</p><p>Q：你在參加饅頭計畫前是否已經是工程師？<br>A：不，我不是工程師</p><p>Q：在饅頭計畫後你是否變成了一位工程師？<br>A：是，我成為了一個混水摸魚的工程師</p><p>Q：你目前的職業是？<br>A：前端</p><p>Q：你覺得饅頭計畫對你有幫助嘛？(單選)<br>A：非常有幫助，讚！</p><p>Q：如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A：讓我面對難題時，能夠冷靜有邏輯地解決問題<br>你覺得 Luka 教學的過程最好的地方是什麼？<br>有條理地拆解問題，以及引導解決問題的方向</p><p>Q：有沒有你很想學，但是沒有學到的東西？<br>A：沒有</p><p>Q：有沒有什麼話想對我說？<br>A：很感謝你的教導！</p>]]></content>
     
@@ -281,19 +265,15 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (6) Shawn</title>
-    <link href="https://luka.tw/2023/01/28/mc2-06-Shawn/"/>
-    <id>https://luka.tw/2023/01/28/mc2-06-Shawn/</id>
+    <link href="https://codeshiba.com/2023/01/28/mc2-06-Shawn/"/>
+    <id>https://codeshiba.com/2023/01/28/mc2-06-Shawn/</id>
     <published>2023-01-28T04:10:22.000Z</published>
-    <updated>2023-11-27T03:41:59.371Z</updated>
+    <updated>2023-11-27T23:42:25.909Z</updated>
     
     <content type="html"><![CDATA[<p>Q：名字<br>A：Shawn</p><p>Q：你在參加饅頭計畫前是否已經是工程師？<br>A：不，我不是工程師</p><p>Q：在饅頭計畫後你是否變成了一位工程師？<br>A：是，我成為了一個混水摸魚的工程師</p><p>Q：你目前的職業是？<br>A：python相關工程師</p><p>Q：你覺得饅頭計畫對你有幫助嘛？(單選)<br>A：有幫助，掌聲鼓勵鼓勵</p><p>Q：如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A：主要是學習方式,將學習的知識轉化為筆記並進一步建立成部落格，紀錄學習歷程，這點滿重要的，也因為學習筆記，對我進入現在公司有滿大的加分，至今也仍然使用此方式在學習.</p><p>Q：你覺得 Luka 教學的過程最好的地方是什麼？<br>A：陪伴你一路轉職，會幫你盯進度，雖然我屬於那種丟了履歷莫名找到工作的，但還是謝謝Luka前期的密集盯哨與陪伴！</p><p>Q：有沒有你很想學，但是沒有學到的東西？<br>A：目前還好</p><p>Q：有沒有什麼話想對我說？<br>A：謝謝Luka,覺得這樣的計劃非常有意義，也因為這個計畫認識了其他轉職夥伴，可以互相交流</p>]]></content>
     
@@ -306,19 +286,15 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #2 學員心得 (7) Lily</title>
-    <link href="https://luka.tw/2023/01/27/mc2-07-lily/"/>
-    <id>https://luka.tw/2023/01/27/mc2-07-lily/</id>
+    <link href="https://codeshiba.com/2023/01/27/mc2-07-lily/"/>
+    <id>https://codeshiba.com/2023/01/27/mc2-07-lily/</id>
     <published>2023-01-27T01:30:21.000Z</published>
-    <updated>2023-11-27T03:41:59.375Z</updated>
+    <updated>2023-11-27T23:42:25.935Z</updated>
     
     <content type="html"><![CDATA[<p>Q：名字<br>A：Lily</p><p>Q：你在參加饅頭計畫前是否已經是工程師？<br>A：是，我是工程師</p><p>Q：在饅頭計畫後你是否變成了一位工程師？<br>A：是，我成為了一個人人稱羨的工程師</p><p>Q：你目前的職業是？<br>A：前端</p><p>Q：你覺得饅頭計畫對你有幫助嘛？(單選)<br>A：非常有幫助，讚！</p><p>Q：如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A：感謝 Luka 的耐心協助，指點該如何準備面試，撰寫履歷（很多時候真的不理解到底該怎麼執行，Luka 可以在下班後那麼多事情的情況下願意幫忙，真的很感動），後來也順利拿到薪水更高的 offer。</p><p>Q：你覺得 Luka 教學的過程最好的地方是什麼？<br>A：很有耐心、會指點方向讓學員主動學習，而不是直接提供答案</p><p>Q：你覺得 Luka 教學的過程最好的地方是什麼？<br>A：pipeline 運作吧</p><p>Q：有沒有什麼話想對我說？<br>A：Hi 教練，新年快樂啊～</p>]]></content>
     
@@ -331,17 +307,13 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>【 Flask 教學 】Hello, Flask！五分鐘建立你的第一個 Flask 應用</title>
-    <link href="https://luka.tw/2021/11/29/python-flask/01-hello-flask/"/>
-    <id>https://luka.tw/2021/11/29/python-flask/01-hello-flask/</id>
+    <link href="https://codeshiba.com/2021/11/29/python-flask/01-hello-flask/"/>
+    <id>https://codeshiba.com/2021/11/29/python-flask/01-hello-flask/</id>
     <published>2021-11-28T22:27:46.000Z</published>
     <updated>2023-11-27T04:40:14.263Z</updated>
     
@@ -355,17 +327,17 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="Flask 教學" scheme="https://luka.tw/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
+    <category term="Flask 教學" scheme="https://codeshiba.com/categories/Python/Flask-%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>【 Python 冷知識 】你知道 PyPI 怎麼唸嘛？</title>
-    <link href="https://luka.tw/2021/11/29/python/03-how-to-pronounce-pypi/"/>
-    <id>https://luka.tw/2021/11/29/python/03-how-to-pronounce-pypi/</id>
+    <link href="https://codeshiba.com/2021/11/29/python/03-how-to-pronounce-pypi/"/>
+    <id>https://codeshiba.com/2021/11/29/python/03-how-to-pronounce-pypi/</id>
     <published>2021-11-28T18:30:56.000Z</published>
     <updated>2023-11-26T04:11:35.494Z</updated>
     
@@ -385,17 +357,17 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="基礎教學" scheme="https://luka.tw/categories/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/"/>
+    <category term="基礎教學" scheme="https://codeshiba.com/categories/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>【 Python 教學 】什麼是 PyPI？跟 pip 又有什麼關係呢？</title>
-    <link href="https://luka.tw/2021/11/27/python/02-what-is-pypi/"/>
-    <id>https://luka.tw/2021/11/27/python/02-what-is-pypi/</id>
+    <link href="https://codeshiba.com/2021/11/27/python/02-what-is-pypi/"/>
+    <id>https://codeshiba.com/2021/11/27/python/02-what-is-pypi/</id>
     <published>2021-11-27T15:11:23.000Z</published>
     <updated>2023-11-26T04:11:35.494Z</updated>
     
@@ -409,17 +381,17 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="基礎教學" scheme="https://luka.tw/categories/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/"/>
+    <category term="基礎教學" scheme="https://codeshiba.com/categories/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>【 Python 資料科學 】書籍推薦</title>
-    <link href="https://luka.tw/2021/11/25/python/01-data-science-book/"/>
-    <id>https://luka.tw/2021/11/25/python/01-data-science-book/</id>
+    <link href="https://codeshiba.com/2021/11/25/python/01-data-science-book/"/>
+    <id>https://codeshiba.com/2021/11/25/python/01-data-science-book/</id>
     <published>2021-11-24T22:23:14.000Z</published>
     <updated>2023-11-26T04:11:35.494Z</updated>
     
@@ -433,19 +405,19 @@
     
     
     
-    <category term="Python" scheme="https://luka.tw/categories/Python/"/>
+    <category term="Python" scheme="https://codeshiba.com/categories/Python/"/>
     
-    <category term="基礎教學" scheme="https://luka.tw/categories/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/"/>
+    <category term="基礎教學" scheme="https://codeshiba.com/categories/Python/%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #1 學員心得 (1) Joanne</title>
-    <link href="https://luka.tw/2020/09/06/mc1-01-joanne/"/>
-    <id>https://luka.tw/2020/09/06/mc1-01-joanne/</id>
+    <link href="https://codeshiba.com/2020/09/06/mc1-01-joanne/"/>
+    <id>https://codeshiba.com/2020/09/06/mc1-01-joanne/</id>
     <published>2020-09-06T04:00:35.000Z</published>
-    <updated>2023-11-27T03:41:59.203Z</updated>
+    <updated>2023-11-27T23:42:25.928Z</updated>
     
     <content type="html"><![CDATA[<p>Q: 怎麼稱呼？<br>A: Joanne</p><p>Q: 你在參加饅頭計畫前是否已經是工程師？<br>A: 不，我不是工程師</p><p>Q: 在饅頭計畫後你是否變成了一位工程師？<br>A: 是，我成為了一個混水摸魚的工程師</p><p>Q: 你目前的職業是？<br>A: 全端，但專案框架都雷同</p><p>Q: 你覺得饅頭計畫對你有幫助嘛？<br>A: 有幫助，掌聲鼓勵鼓勵</p><p>Q: 如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A: 還記得加入饅頭計畫沒多久，同時也在準備實習面試(目前已畢業轉正)，當時的我coding能力其實並不好，許多基本觀念、技術也都很不熟悉，所以對於即將開始實習這件事，感到非常緊張和擔心，擔心自己能力不足也擔心自己沒辦法好好表現，所以也曾經請教過Luka，該如何提升自己的能力呢 ? 甚至到底該如何學習「物件導向」? 而請教完也相對比較有概念，知道如果要把「物件導向」的相關書籍從頭啃到尾，實在有點痛苦，做中學才能真正理解何謂物件導向。而其實也相當感謝Luka願意無私的分享自己的技術，講解了許多基本觀念和分享開發過程中會接觸到的工具，你的課程很棒~真的有幫助到我~~~ XD 即使在後期因為工作繁忙比較少參與課程，但還是非常謝謝Luka  ʕ•ᴥ•ʔ</p><p>Q: 你覺得 Luka 教學的過程最好的地方是什麼？<br>A: 覺得Luka做事很積極哈哈哈，非常的棒啊啊啊啊，當我準備怠惰時，看到Luka下班後還開直播教學，立馬從沙發跳起 (沒資格軟爛)。hahaha</p><p>Q: 有沒有你很想學，但是沒有學到的東西？<br>A:</p><ol><li>資料庫正規化設計及資料庫效能優化 很需要加強…</li><li>AWS (工作上有接觸到一些，已購入課程，目標今年考到證照!!!)</li><li>Ruby、Ruby On Rails</li><li>網路架構這塊…超弱 QQ 什麼封包什麼router switch，因為我是IT部門，這塊早晚還是必須學起來</li><li>強大的邏輯，有了清晰又強大的邏輯力，遇到問題就可以馬上知道問題點及解決方法 <em>(:::з」∠)</em></li></ol><p>Q: 你願意寫篇文章記錄饅頭計畫的過程嘛？<br>A: 我願意！但我需要一點時間</p><p>Q: 有沒有什麼話想對 Luka 說？<br>A: 非常期待饅頭計畫第二彈 ! Luka加油~!</p><p>Q: 如果有饅頭計畫第二彈，你願意擔任助教嘛？<br>A: 有興趣</p>]]></content>
     
@@ -458,19 +430,15 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #1 學員心得 (2) GK</title>
-    <link href="https://luka.tw/2020/09/06/mc1-02-gk/"/>
-    <id>https://luka.tw/2020/09/06/mc1-02-gk/</id>
+    <link href="https://codeshiba.com/2020/09/06/mc1-02-gk/"/>
+    <id>https://codeshiba.com/2020/09/06/mc1-02-gk/</id>
     <published>2020-09-06T04:00:34.000Z</published>
-    <updated>2023-11-27T03:41:59.207Z</updated>
+    <updated>2023-11-27T23:42:25.995Z</updated>
     
     <content type="html"><![CDATA[<p>Q: 怎麼稱呼？<br>A: GK</p><p>Q: 你在參加饅頭計畫前是否已經是工程師？<br>A: 不，我不是工程師</p><p>Q: 在饅頭計畫後你是否變成了一位工程師？<br>A: 是，我成為了一個混水摸魚的工程師</p><p>Q: 你目前的職業是？<br>A: 前端工程師</p><p>Q: 你覺得饅頭計畫對你有幫助嘛？<br>A: 非常有幫助，讚！</p><p>Q: 如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A: 不好意思說自己是人人稱羨的工程師，只好自稱混水摸魚，但其實還是稍微認真的在工作著，也逐漸朝系統分析的領域、後端領域與資料庫的領域學習。我覺得最大的好處就是有人督促學習，監督進度，不然自己真的很容易懶散。感謝 Luka！</p><p>Q: 你覺得 Luka 教學的過程最好的地方是什麼？<br>A: 逼迫的部分</p><p>Q: 有沒有你很想學，但是沒有學到的東西？<br>A: 沒有特別想學什麼，都是順著路走</p><p>Q: 你願意寫篇文章記錄饅頭計畫的過程嘛？<br>A: 我願意！但我需要一點時間</p><p>Q: 有沒有什麼話想對 Luka 說？<br>A: 我寫了一篇轉職心得，其中有提到一點點饅頭計畫<a href="https://gkfat.github.io/gk-blog/2019/10/15/road-to-front-end">https://gkfat.github.io/gk-blog/2019/10/15/road-to-front-end</a></p><p>Q: 如果有饅頭計畫第二彈，你願意擔任助教嘛？<br>A: 有興趣</p>]]></content>
     
@@ -483,19 +451,15 @@
     
     
     
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
-    
     
   </entry>
   
   <entry>
     <title>饅頭計畫 #1 學員心得 (3) Genie</title>
-    <link href="https://luka.tw/2020/09/06/mc1-03-genie/"/>
-    <id>https://luka.tw/2020/09/06/mc1-03-genie/</id>
+    <link href="https://codeshiba.com/2020/09/06/mc1-03-genie/"/>
+    <id>https://codeshiba.com/2020/09/06/mc1-03-genie/</id>
     <published>2020-09-06T04:00:33.000Z</published>
-    <updated>2023-11-27T03:41:59.210Z</updated>
+    <updated>2023-11-27T23:42:25.928Z</updated>
     
     <content type="html"><![CDATA[<p>Q: 怎麼稱呼？<br>A: Genie</p><p>Q: 你在參加饅頭計畫前是否已經是工程師？<br>A: 不，我不是工程師</p><p>Q: 在饅頭計畫後你是否變成了一位工程師？<br>A: 否，我沒有變轉職成功</p><p>Q: 你目前的職業是？<br>A: 還在學習中，目標今年轉職成功</p><p>Q: 你覺得饅頭計畫對你有幫助嘛？<br>A: 還好，so so</p><p>Q: 如果有幫助的話，請說說饅頭計畫帶給你的改變，如果對你的改變很大，請盡可能詳述，反之，填無即可<br>A: 暫無。</p><p>不過主要是我自己的原因啦，的確沒有花太多的時間與精力在饅頭計畫上，也沒有與 Luka 保持聯繫，討論學習中所遇到的狀況與進度。</p><p>如果有機會再參加一次的話，應該會嘗試有沒有其他作法，把時間管理以及與進度追蹤做好，以這樣的狀態來參加饅頭計畫應該比較有意義</p><p>Q: 你覺得 Luka 教學的過程最好的地方是什麼？<br>A: 沒有將每支影片都看完，不過Luka的教學架構做的很具體，所以透過影片的標題的關鍵字，可以知道要成為網站工程師需要了解以及學習的技能有哪些;<br>然後就是 Luka 是個很願意分享的人，剛開始有 slack 私訊以及發 PR 說明自己目前的學習狀況，Luka 會認真地分析以及指出要怎麼加強，在自學的路上有個有經驗的人可以指引方向很重要</p><p>Q: 有沒有你很想學，但是沒有學到的東西？<br>A: 想知道後端方面所需要學習的知識與技能，以及如何與前端配合</p><p>Q: 你願意寫篇文章記錄饅頭計畫的過程嘛？<br>A: 我願意！但我需要一點時間</p><p>Q: 有沒有什麼話想對 Luka 說？<br>A: 參與 Luka 饅頭計畫後，覺得 Luka 是個用很用心的態度在做事的 mentor，這個計劃的發心以及構想很不錯，而且真的有人透過饅頭計畫轉職成功，其實蠻替這些人感到高興的，另一方面透過這次的經驗，發現自己在學習上屬於較被動型的，有些學習的策略是需要調整的，教練，我好想變強啊。</p><p>Q: 如果有饅頭計畫第二彈，你願意擔任助教嘛？<br>A: 有興趣</p>]]></content>
     
@@ -507,10 +471,6 @@
 &lt;p&gt;Q: 你覺得饅頭計畫對你有幫助嘛？&lt;br&gt;A: 還好，so so&lt;/p&gt;</summary>
     
     
-    
-    <category term="饅頭計畫" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/"/>
-    
-    <category term="學員心得" scheme="https://luka.tw/categories/%E9%A5%85%E9%A0%AD%E8%A8%88%E7%95%AB/%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97/"/>
     
     
   </entry>
