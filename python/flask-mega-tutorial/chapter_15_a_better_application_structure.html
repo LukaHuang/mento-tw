@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>程式柴 CodeShiba</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="程式柴 CodeShiba"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="程式柴 CodeShiba"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Chapter 15: A Better Application Structure Posted by on Miguel Grinberg  這是 Flask 大型教學系列的第十五部分，在這裡我將使用適合更大型應用程式的風格來重構應用程式。  Chapter 1: Hello, World! Chapter 2: Templates Chapter 3: Web Forms Chapter 4"><meta property="og:type" content="website"><meta property="og:title" content="程式柴 CodeShiba"><meta property="og:url" content="https://codeshiba.com/python/flask-mega-tutorial/chapter_15_a_better_application_structure.html"><meta property="og:site_name" content="程式柴 CodeShiba"><meta property="og:description" content="Chapter 15: A Better Application Structure Posted by on Miguel Grinberg  這是 Flask 大型教學系列的第十五部分，在這裡我將使用適合更大型應用程式的風格來重構應用程式。  Chapter 1: Hello, World! Chapter 2: Templates Chapter 3: Web Forms Chapter 4"><meta property="og:locale" content="zh_TW"><meta property="og:image" content="https://codeshiba.com/img/og_image.png"><meta property="article:published_time" content="2024-02-02T13:33:35.843Z"><meta property="article:modified_time" content="2024-02-02T13:33:35.843Z"><meta property="article:author" content="Luka Huang"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeshiba.com/python/flask-mega-tutorial/chapter_15_a_better_application_structure.html"},"headline":"程式柴 CodeShiba","image":["https://codeshiba.com/img/og_image.png"],"datePublished":"2024-02-02T13:33:35.843Z","dateModified":"2024-02-02T13:33:35.843Z","author":{"@type":"Person","name":"Luka Huang"},"publisher":{"@type":"Organization","name":"程式柴 CodeShiba","logo":{"@type":"ImageObject","url":{"text":"程式柴 CodeShiba"}}},"description":"Chapter 15: A Better Application Structure Posted by on Miguel Grinberg  這是 Flask 大型教學系列的第十五部分，在這裡我將使用適合更大型應用程式的風格來重構應用程式。  Chapter 1: Hello, World! Chapter 2: Templates Chapter 3: Web Forms Chapter 4"}</script><link rel="canonical" href="https://codeshiba.com/python/flask-mega-tutorial/chapter_15_a_better_application_structure.html"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/monokai.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=417968703" async></script><script>window.dataLayer = window.dataLayer || [];
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>程式柴 CodeShiba</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="程式柴 CodeShiba"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="程式柴 CodeShiba"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Chapter 15: A Better Application Structure Posted by on Miguel Grinberg  這是 Flask 大型教學系列的第十五部分，在這裡我將使用適合更大型應用程式的風格來重構應用程式。  Chapter 1: Hello, World! Chapter 2: Templates Chapter 3: Web Forms Chapter 4"><meta property="og:type" content="website"><meta property="og:title" content="程式柴 CodeShiba"><meta property="og:url" content="https://codeshiba.com/python/flask-mega-tutorial/chapter_15_a_better_application_structure.html"><meta property="og:site_name" content="程式柴 CodeShiba"><meta property="og:description" content="Chapter 15: A Better Application Structure Posted by on Miguel Grinberg  這是 Flask 大型教學系列的第十五部分，在這裡我將使用適合更大型應用程式的風格來重構應用程式。  Chapter 1: Hello, World! Chapter 2: Templates Chapter 3: Web Forms Chapter 4"><meta property="og:locale" content="zh_TW"><meta property="og:image" content="https://codeshiba.com/img/og_image.png"><meta property="article:published_time" content="2024-02-02T13:57:24.366Z"><meta property="article:modified_time" content="2024-02-02T13:57:24.366Z"><meta property="article:author" content="Luka Huang"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeshiba.com/python/flask-mega-tutorial/chapter_15_a_better_application_structure.html"},"headline":"程式柴 CodeShiba","image":["https://codeshiba.com/img/og_image.png"],"datePublished":"2024-02-02T13:57:24.366Z","dateModified":"2024-02-02T13:57:24.366Z","author":{"@type":"Person","name":"Luka Huang"},"publisher":{"@type":"Organization","name":"程式柴 CodeShiba","logo":{"@type":"ImageObject","url":{"text":"程式柴 CodeShiba"}}},"description":"Chapter 15: A Better Application Structure Posted by on Miguel Grinberg  這是 Flask 大型教學系列的第十五部分，在這裡我將使用適合更大型應用程式的風格來重構應用程式。  Chapter 1: Hello, World! Chapter 2: Templates Chapter 3: Web Forms Chapter 4"}</script><link rel="canonical" href="https://codeshiba.com/python/flask-mega-tutorial/chapter_15_a_better_application_structure.html"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/monokai.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=417968703" async></script><script>window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
     
@@ -9,36 +9,36 @@
 </blockquote>
 <p>這是 Flask 大型教學系列的第十五部分，在這裡我將使用適合更大型應用程式的風格來重構應用程式。</p>
 <ul>
-<li><a href="/python/flask-mega-tutorial/chapter_1_hello_world">Chapter 1: Hello, World!</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_2_templates">Chapter 2: Templates</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_3_web_forms">Chapter 3: Web Forms</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_4_database">Chapter 4: Database</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_5_user_logins">Chapter 5: User Logins</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_6_profile_page_and_avatars">Chapter 6: Profile Page and Avatars</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_7_error_handling">Chapter 7: Error Handling (this article)</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_8_followers">Chapter 8: Followers</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_9_pagination">Chapter 9: Pagination</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_10_email_support">Chapter 10: Email Support</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_11_facelift">Chapter 11: Facelift</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_12_dates_and_times">Chapter 12: Dates and Times</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_13_i18n_and_l10n">Chapter 13: I18n and L10n</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_14_ajax">Chapter 14: Ajax</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_15_a_better_application_structure">Chapter 15: A Better Application Structure</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_16_full_text_search">Chapter 16: Full-Text Search</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_17_deployment_on_linux">Chapter 17: Deployment on Linux</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_19_deployment_on_docker_containers">Chapter 19: Deployment on Docker Containers</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_20_some_javascript_magic">Chapter 20: Some JavaScript Magic</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_21_user_notifications">Chapter 21: User Notifications</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_22_background_jobs">Chapter 22: Background Jobs</a></li>
-<li><a href="/python/flask-mega-tutorial/chapter_23_application_programming_interfaces_apis">Chapter 23: Application Programming Interfaces （APIs）</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_1_hello_world">Chapter 1: Hello, World!</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_2_templates">Chapter 2: Templates</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_3_web_forms">Chapter 3: Web Forms</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_4_database">Chapter 4: Database</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_5_user_logins">Chapter 5: User Logins</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_6_profile_page_and_avatars">Chapter 6: Profile Page and Avatars</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_7_error_handling">Chapter 7: Error Handling (this article)</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_8_followers">Chapter 8: Followers</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_9_pagination">Chapter 9: Pagination</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_10_email_support">Chapter 10: Email Support</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_11_facelift">Chapter 11: Facelift</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_12_dates_and_times">Chapter 12: Dates and Times</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_13_i18n_and_l10n">Chapter 13: I18n and L10n</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_14_ajax">Chapter 14: Ajax</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_15_a_better_application_structure">Chapter 15: A Better Application Structure</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_16_full_text_search">Chapter 16: Full-Text Search</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_17_deployment_on_linux">Chapter 17: Deployment on Linux</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_19_deployment_on_docker_containers">Chapter 19: Deployment on Docker Containers</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_20_some_javascript_magic">Chapter 20: Some JavaScript Magic</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_21_user_notifications">Chapter 21: User Notifications</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_22_background_jobs">Chapter 22: Background Jobs</a></li>
+<li><a href="https://codeshiba.com/python/flask-mega-tutorial/chapter_23_application_programming_interfaces_apis">Chapter 23: Application Programming Interfaces （APIs）</a></li>
 </ul>
 <blockquote>
 <p>你正在閱讀 Flask Mega-Tutorial 的 2024 年版本。完整的課程也可以在 <a target="_blank" rel="noopener" href="https://amzn.to/3ahVnPN">Amazon</a> 以電子書和平裝書的形式訂購。感謝你的支持！<br>如果你正在尋找 2018 年版本的課程，你可以在<a target="_blank" rel="noopener" href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-2018">這裡</a>找到它。</p>
 </blockquote>
 <p>Microblog 已經是一個相當大的應用程式，所以我認為這是討論 Flask 應用程式如何在不變得混亂或太難管理的情況下成長的好機會。Flask 是一個旨在讓你以任何你想要的方式組織你的專案的框架，作為這種哲學的一部分，它使得當應用程式變得更大，或者你的需求或經驗水平變化時，改變或適應應用程式結構成為可能。</p>
-<p>在這一章中，我將討論一些適用於大型應用程式的模式，並為了展示它們，我將對我的 Microblog 專案的結構進行一些改變，目的是使代碼更容易維護和更好地組織。但當然，保持著真正的 Flask 精神，我鼓勵你將這些改變僅作為一個建議，當你試圖決定如何組織你自己的專案時。</p>
+<p>在這一章中，我將討論一些適用於大型應用程式的模式，並為了展示它們，我將對我的 Microblog 專案的結構進行一些改變，目的是使程式碼更容易維護和更好地組織。但當然，保持著真正的 Flask 精神，我鼓勵你將這些改變僅作為一個建議，當你試圖決定如何組織你自己的專案時。</p>
 <p>這一章的 GitHub 連結是：<a target="_blank" rel="noopener" href="https://github.com/miguelgrinberg/microblog/tree/v0.15">Browse</a> <a target="_blank" rel="noopener" href="https://github.com/miguelgrinberg/microblog/archive/v0.15.zip">Zip</a> <a target="_blank" rel="noopener" href="https://github.com/miguelgrinberg/microblog/compare/v0.14...v0.15">Diff</a></p>
-<h3 id="當前的限制"><a href="#當前的限制" class="headerlink" title="當前的限制"></a>當前的限制</h3><p>應用程式目前狀態存在兩個基本問題。如果你看看應用程式的結構，你會注意到有幾個不同的子系統可以被識別，但支持它們的代碼都混雜在一起，沒有任何明確的界限。讓我們回顧一下這些子系統是什麼：</p>
+<h3 id="當前的限制"><a href="#當前的限制" class="headerlink" title="當前的限制"></a>當前的限制</h3><p>應用程式目前狀態存在兩個基本問題。如果你看看應用程式的結構，你會注意到有幾個不同的子系統可以被識別，但支持它們的程式碼都混雜在一起，沒有任何明確的界限。讓我們回顧一下這些子系統是什麼：</p>
 <ol>
 <li>使用者認證子系統，包括一些在 app/routes.py 中的視圖函式、一些在 app/forms.py 中的表單、一些在 app/templates 中的範本和在 app/email.py 中的電子郵件支持。</li>
 <li>錯誤子系統，定義了在 app/errors.py 中的錯誤處理器和在 app/templates 中的範本。</li>
@@ -46,7 +46,7 @@
 </ol>
 <p>考慮到我已經識別的這三個子系統以及它們的結構，你可能會注意到一個模式。到目前為止，我所遵循的組織邏輯是基於有不同應用程式功能的專用模組。有一個模組是為視圖函式，另一個是為網頁表單，一個</p>
 <p>是錯誤，一個是電子郵件，一個目錄是 HTML 範本，等等。雖然這是一個對於小型專案有意義的結構，但一旦一個專案開始成長，它傾向於使這些模組變得非常大和混亂。</p>
-<p>一個清楚看到問題的方式是考慮如何通過從這個專案中盡可能多地重用來開始第二個專案。例如，使用者認證部分應該在其他應用程式中運作良好，但如果你想要如實使用那些代碼，你將不得不進入幾個模組，並將相關部分複製 / 貼上到新專案中的新檔案中。看看這有多不方便？如果這個專案將所有與認證相關的檔案與應用程式的其餘部分分開，不是更好嗎？Flask 的藍圖功能有助於實現更實用的組織，使代碼重用變得更容易。</p>
+<p>一個清楚看到問題的方式是考慮如何通過從這個專案中盡可能多地重用來開始第二個專案。例如，使用者認證部分應該在其他應用程式中運作良好，但如果你想要如實使用那些程式碼，你將不得不進入幾個模組，並將相關部分複製 / 貼上到新專案中的新檔案中。看看這有多不方便？如果這個專案將所有與認證相關的檔案與應用程式的其餘部分分開，不是更好嗎？Flask 的藍圖功能有助於實現更實用的組織，使程式碼重用變得更容易。</p>
 <p>還有第二個問題不那麼明顯。Flask 應用程式實例是作為全局變數在 app/<strong>init</strong>.py 中創建的，然後由許多應用程式模組導入。雖然這本身並不是問題，但將應用程式作為全局變數可能會使某些情況變得複雜，尤其是與測試相關的情況。想像你想要在不同配置下測試這個應用程式。因為應用程式被定義為全局變數，真的沒有辦法實例化兩個使用不同配置變數的應用程式。另一個不理想的情況是所有測試都使用相同的應用程式，所以一個測試可能會對應用程式進行更改，從而影響稍後運行的另一個測試。理想情況下，你希望所有測試都在原始的應用程式實例上運行。</p>
 <h3 id="藍圖"><a href="#藍圖" class="headerlink" title="藍圖"></a>藍圖</h3><p>在 Flask 中，藍圖是代表應用程式子集的邏輯結構。一個藍圖可以包括路由、視圖函式、表單、範本和靜態檔案等元素。如果你在一個單獨的 Python 套件中撰寫你的藍圖，那麼你就有了一個封裝與應用程式特定功能相關元素的元件。</p>
 <p>藍圖的內容最初處於休眠狀態。為了啟動這些元素，需要將藍圖註冊到應用程式。在註冊期間，添加到藍圖的所有元素都被傳遞到應用程式。因此，你可以將藍圖視為暫時儲存應用程式功能的工具，有助於組織你的程式碼。</p>
