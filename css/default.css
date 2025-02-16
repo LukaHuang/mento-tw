@@ -11520,9 +11520,9 @@ figure.highlight .section {
     overflow-y: auto;
     margin: 2rem 0;
   }
-  .widget.card#toc.is-active,
-  #toc-mask.is-active {
-    display: block;
+  .column-right .widget.card#toc,
+  #toc-mask {
+    display: none;
   }
 }
 .donate {
