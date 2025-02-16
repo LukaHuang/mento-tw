@@ -11440,9 +11440,6 @@ figure.highlight .section {
 #post-page div[data-type="archives"] {
   display: none;
 }
-#post-page div[data-type="recent-posts"] {
-  display: none;
-}
 .widget .categories {
   display: none;
 }
@@ -11501,10 +11498,11 @@ figure.highlight .section {
 .level.is-multiline {
   flex-wrap: wrap;
 }
+.article .widget.card#toc {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .widget.card#toc {
-    display: none;
-    position: fixed;
     margin: 1rem;
     left: 0;
     right: 0;
@@ -11519,16 +11517,6 @@ figure.highlight .section {
     padding: 1.5rem;
     max-height: calc(100vh - 2rem);
     overflow-y: auto;
-  }
-  #toc-mask {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: rgba(0,0,0,0.7);
   }
   .widget.card#toc.is-active,
   #toc-mask.is-active {
