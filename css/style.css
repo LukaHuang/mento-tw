@@ -11502,21 +11502,23 @@ figure.highlight .section {
   display: none;
 }
 @media screen and (max-width: 768px) {
-  .widget.card#toc {
+  .article .widget.card#toc {
+    display: block;
     margin: 1rem;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 100;
   }
-  .widget.card#toc .card-content {
+  .article .widget.card#toc .card-content {
     padding: 0;
     font-size: 13.5rem;
   }
-  .widget.card#toc .menu {
+  .article .widget.card#toc .menu {
     padding: 1.5rem;
     max-height: calc(100vh - 2rem);
     overflow-y: auto;
+    margin: 2rem 0;
   }
   .widget.card#toc.is-active,
   #toc-mask.is-active {
