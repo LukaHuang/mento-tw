@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字幕工具</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>字幕工具</h1>
+        
+        <div class="tool-selector">
+            <button id="splitToolBtn" class="tool-btn active">分割工具</button>
+            <button id="mergeToolBtn" class="tool-btn">合併工具</button>
+        </div>
+
+        <!-- 分割工具 -->
+        <div id="splitTool" class="tool-section active">
+            <div class="upload-section">
+                <div class="file-drop-zone" id="splitDropZone">
+                    <input type="file" id="splitFileInput" accept=".srt" hidden>
+                    <div class="drop-zone-content">
+                        <img src="upload-icon.svg" alt="上傳" id="uploadIcon">
+                        <p>拖放 .srt 檔案到這裡或點擊上傳</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="settings-section" id="splitSettings" style="display: none;">
+                <div class="file-info">
+                    <p>檔案名稱：<span id="splitFileName">-</span></p>
+                    <p>總行數：<span id="totalLines">-</span></p>
+                </div>
+                
+                <div class="split-settings">
+                    <label for="linesPerFile">每個檔案的行數：</label>
+                    <input type="number" id="linesPerFile" min="1" value="500" placeholder="請輸入行數">
+                    <button id="splitButton" disabled>分割並下載</button>
+                </div>
+                
+                <div class="preview-section">
+                    <h3>分割預覽</h3>
+                    <div id="previewList"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 合併工具 -->
+        <div id="mergeTool" class="tool-section">
+            <div class="upload-section">
+                <div class="file-drop-zone" id="mergeDropZone">
+                    <input type="file" id="mergeFileInput" accept=".srt" multiple hidden>
+                    <div class="drop-zone-content">
+                        <img src="upload-icon.svg" alt="上傳" id="mergeUploadIcon">
+                        <p>拖放多個 .srt 檔案到這裡或點擊上傳</p>
+                        <p class="sub-text">可以一次選擇多個檔案，系統會自動依照字幕編號排序</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="settings-section" id="mergeSettings" style="display: none;">
+                <div class="file-list">
+                    <h3>已上傳的檔案</h3>
+                    <div id="mergeFileList"></div>
+                </div>
+                
+                <div class="merge-actions">
+                    <button id="mergeButton" disabled>合併並下載</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

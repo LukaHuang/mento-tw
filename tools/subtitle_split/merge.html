@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字幕合併工具</title>
+    <link rel="stylesheet" href="merge-style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>字幕合併工具</h1>
+        
+        <div class="upload-section">
+            <div class="file-drop-zone" id="dropZone">
+                <input type="file" id="fileInput" accept=".srt" multiple hidden>
+                <div class="drop-zone-content">
+                    <img src="upload-icon.svg" alt="上傳" id="uploadIcon">
+                    <p>拖放多個 .srt 檔案到這裡或點擊上傳</p>
+                    <p class="sub-text">可以一次選擇多個檔案，系統會自動依照字幕編號排序</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="settings-section" id="settingsSection" style="display: none;">
+            <div class="file-list">
+                <h3>已上傳的檔案</h3>
+                <div id="fileList"></div>
+            </div>
+            
+            <div class="merge-actions">
+                <button id="mergeButton">合併並下載</button>
+            </div>
+        </div>
+    </div>
+    <script src="merge.js"></script>
+</body>
+</html> 
