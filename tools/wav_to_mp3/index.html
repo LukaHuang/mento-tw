@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Audio Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Podcast Audio Converter</h1>
+        
+        <div class="converter-box">
+            <div class="input-section">
+                <h2>Input</h2>
+                <div class="file-drop-area" id="dropArea">
+                    <p>Drag & Drop audio files here</p>
+                    <p>or</p>
+                    <input type="file" id="fileInput" accept="audio/*" multiple>
+                    <label for="fileInput" class="file-input-label">Choose Files</label>
+                </div>
+                <div class="file-list" id="fileList">
+                    <h3>Selected Files</h3>
+                    <div class="file-items" id="fileItems">
+                        <!-- File items will be added here dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="conversion-section">
+                <h2>Convert To</h2>
+                <select id="outputFormat">
+                    <option value="mp3">MP3 (Podcast)</option>
+                    <option value="wav">WAV (Uncompressed)</option>
+                </select>
+                
+                <div class="quality-settings">
+                    <label for="bitrate">Bitrate:</label>
+                    <select id="bitrate">
+                        <option value="128">128 kbps (Standard)</option>
+                        <option value="192">192 kbps (High)</option>
+                        <option value="256">256 kbps (Very High)</option>
+                        <option value="320">320 kbps (Maximum)</option>
+                    </select>
+                </div>
+
+                <button id="convertBtn" disabled>Convert All</button>
+            </div>
+
+            <div class="output-section">
+                <h2>Output</h2>
+                <div class="output-info" id="outputInfo">
+                    <p>Status: <span id="conversionStatus">Waiting for files...</span></p>
+                    <div class="progress-container" style="display: none;">
+                        <div class="overall-progress">
+                            <h4>Overall Progress</h4>
+                            <div class="progress-bar">
+                                <div class="progress" id="overallProgressBar"></div>
+                            </div>
+                            <p class="progress-text"><span id="overallProgressText">0%</span></p>
+                        </div>
+                        <div class="current-file-progress">
+                            <h4>Current File</h4>
+                            <div class="progress-bar">
+                                <div class="progress" id="currentProgressBar"></div>
+                            </div>
+                            <p class="progress-text"><span id="currentProgressText">0%</span></p>
+                        </div>
+                    </div>
+                    <div id="downloadSection" style="display: none;">
+                        <a id="downloadAllLink" class="download-btn">Download All Files</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lamejs/1.2.1/lame.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

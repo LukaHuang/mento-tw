@@ -3,93 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSV 轉換工具</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>票券資訊轉換器</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="drop-zone" id="dropZone">
+        <h2>票券資訊轉換器</h2>
+        <p class="description">將 Excel 檔案轉換為 CSV 格式的票券資訊</p>
+        
+        <div id="dropZone" class="drop-zone">
             <div class="drop-zone-content">
                 <img src="upload-icon.svg" alt="上傳" class="upload-icon">
-                <p>拖曳檔案到這裡或點擊選擇檔案</p>
-                <input type="file" id="fileInput" accept=".csv,.xlsx,.xls" multiple style="display: none;">
+                <p>拖放檔案到這裡或</p>
+                <input type="file" id="fileInput" accept=".xlsx,.xls" style="display: none;">
                 <button class="select-file-btn" onclick="document.getElementById('fileInput').click()">選擇檔案</button>
             </div>
         </div>
-        
-        <div class="file-list" id="fileList" style="display: none;">
+
+        <div id="fileList" class="file-list" style="display: none;">
             <h3>已選擇的檔案</h3>
             <div id="fileListContent"></div>
         </div>
 
-        <div class="field-mapping" id="fieldMapping" style="display: none;">
-            <h3>欄位對應</h3>
-            <div class="mapping-instructions">
-                <p>請選擇每個欄位對應的來源欄位：</p>
-                <ul>
-                    <li><strong>email</strong>: 電子郵件欄位</li>
-                    <li><strong>name</strong>: 姓名欄位</li>
-                    <li><strong>attributes</strong>: 選擇要包含在 attributes 中的欄位</li>
-                </ul>
-            </div>
-            <div class="mapping-fields">
-                <div class="mapping-field">
-                    <label>email:</label>
-                    <select id="emailField" class="field-select"></select>
-                </div>
-                <div class="mapping-field">
-                    <label>name:</label>
-                    <select id="nameField" class="field-select"></select>
-                </div>
-                <div class="attributes-selection">
-                    <label>attributes:</label>
-                    <div id="attributesCheckboxes" class="attributes-checkboxes"></div>
-                </div>
-            </div>
+        <div class="buttons">
+            <button id="convertBtn" class="convert-btn" disabled>轉換</button>
         </div>
 
-        <div class="progress-container" id="progressContainer" style="display: none;">
+        <div id="progressContainer" class="progress-container" style="display: none;">
             <div class="progress-bar">
-                <div class="progress" id="progress"></div>
+                <div id="progress" class="progress"></div>
             </div>
-            <p class="progress-text" id="progressText">0%</p>
+            <div id="progressText" class="progress-text">0%</div>
         </div>
 
-        <div class="button-group">
-            <button class="detect-btn" id="detectBtn" disabled>偵測欄位</button>
-            <button class="convert-btn" id="convertBtn" disabled>轉換</button>
-        </div>
-
-        <div class="warning-message" id="warningMessage" style="display: none;">
-            <h4>警告</h4>
-            <p id="warningContent"></p>
-        </div>
-        
-        <div class="result" id="result" style="display: none;">
-            <h3>轉換結果</h3>
-            <p id="resultMessage"></p>
+        <div id="result" class="result" style="display: none;">
+            <h3 id="resultMessage"></h3>
             <div id="downloadLinks"></div>
         </div>
-        <div id="debugInfo" class="debug-info" style="display: none;">
-            <h4>Debug Information</h4>
-            <div class="debug-section">
-                <h5>Original Data Sample</h5>
-                <pre id="originalData"></pre>
-            </div>
-            <div class="debug-section">
-                <h5>Error Message</h5>
-                <pre id="errorMessage"></pre>
-            </div>
-            <div class="debug-section">
-                <h5>Field Mappings</h5>
-                <ul id="fieldMappings"></ul>
-            </div>
-        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html> 

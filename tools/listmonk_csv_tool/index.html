@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV 轉換工具</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Listmonk CSV 轉換器</h2>
+        <br>
+        <p>將 Accupass 的檔案轉換成 CSV</p>
+        <br>
+        <div class="drop-zone" id="dropZone">
+            <div class="drop-zone-content">
+                <img src="upload-icon.svg" alt="上傳" class="upload-icon">
+                <p>拖曳檔案到這裡或點擊選擇檔案</p>
+                <input type="file" id="fileInput" accept=".csv,.xlsx,.xls" multiple style="display: none;">
+                <button class="select-file-btn" onclick="document.getElementById('fileInput').click()">選擇檔案</button>
+            </div>
+        </div>
+        
+        <div class="file-list" id="fileList" style="display: none;">
+            <h3>已選擇的檔案</h3>
+            <div id="fileListContent"></div>
+        </div>
+
+        <div class="field-mapping" id="fieldMapping" style="display: none;">
+            <h3>欄位對應</h3>
+            <div class="mapping-instructions">
+                <p>請選擇每個欄位對應的來源欄位：</p>
+                <ul>
+                    <li><strong>email</strong>: 電子郵件欄位</li>
+                    <li><strong>name</strong>: 姓名欄位</li>
+                    <li><strong>attributes</strong>: 選擇要包含在 attributes 中的欄位</li>
+                </ul>
+            </div>
+            <div class="mapping-fields">
+                <div class="mapping-field">
+                    <label>email:</label>
+                    <select id="emailField" class="field-select"></select>
+                </div>
+                <div class="mapping-field">
+                    <label>name:</label>
+                    <select id="nameField" class="field-select"></select>
+                </div>
+                <div class="attributes-selection">
+                    <label>attributes:</label>
+                    <div id="attributesCheckboxes" class="attributes-checkboxes"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-container" id="progressContainer" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <p class="progress-text" id="progressText">0%</p>
+        </div>
+
+        <div class="button-group">
+            <button class="detect-btn" id="detectBtn" disabled>偵測欄位</button>
+            <button class="convert-btn" id="convertBtn" disabled>轉換</button>
+        </div>
+
+        <div class="warning-message" id="warningMessage" style="display: none;">
+            <h4>警告</h4>
+            <p id="warningContent"></p>
+        </div>
+        
+        <div class="result" id="result" style="display: none;">
+            <h3>轉換結果</h3>
+            <p id="resultMessage"></p>
+            <div id="downloadLinks"></div>
+        </div>
+        <div id="debugInfo" class="debug-info" style="display: none;">
+            <h4>Debug Information</h4>
+            <div class="debug-section">
+                <h5>Original Data Sample</h5>
+                <pre id="originalData"></pre>
+            </div>
+            <div class="debug-section">
+                <h5>Error Message</h5>
+                <pre id="errorMessage"></pre>
+            </div>
+            <div class="debug-section">
+                <h5>Field Mappings</h5>
+                <ul id="fieldMappings"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
